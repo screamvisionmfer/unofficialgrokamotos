@@ -7458,3 +7458,285 @@ body {
     padding-bottom: 2px !important;
   }
 }
+
+
+/* === v9 TABLET / LOW-HEIGHT VIEWPORT FIX ===
+   Tablets in landscape and in-app browsers have desktop width but not enough height.
+   This keeps the Pip-Boy desktop look, but lets the page become taller and scroll
+   instead of clipping wallet/contact blocks. */
+@media (min-width: 901px) and (max-width: 1400px),
+       (min-width: 901px) and (max-height: 920px) {
+  html,
+  body {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100% !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+
+  body {
+    overscroll-behavior-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gameShell {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100svh !important;
+    overflow: visible !important;
+    padding: 8px 10px !important;
+  }
+
+  .frameOuter {
+    height: auto !important;
+    min-height: calc(100svh - 16px) !important;
+    overflow: visible !important;
+  }
+
+  .frameHeader,
+  .pipTopTabs,
+  .pipTicker,
+  .statusBar {
+    flex: 0 0 auto !important;
+  }
+
+  .frameHeader {
+    min-height: 28px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+
+  .pipTopTabs {
+    flex-basis: 54px !important;
+  }
+
+  .pipTab {
+    font-size: clamp(16px, 1.6vw, 22px) !important;
+  }
+
+  .pipTicker {
+    min-height: 32px !important;
+    flex-basis: 32px !important;
+  }
+
+  .pipTabContent {
+    flex: 0 0 auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    padding: 18px 20px 14px !important;
+  }
+
+  .pipMainScreen,
+  .galleryPipScreen,
+  .drbWalletTerminal,
+  .contactsScreen,
+  .pipUtilityPanel,
+  .pipGamePanel {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  .pipMainScreen {
+    grid-template-columns: minmax(220px, .9fr) minmax(420px, 1.8fr) minmax(285px, 1fr) !important;
+    gap: 18px !important;
+    align-items: stretch !important;
+  }
+
+  .pipMainRoutes,
+  .pipCharacterPanel,
+  .pipInfoPanel {
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .pipModelViewport {
+    min-height: 420px !important;
+    height: min(52svh, 520px) !important;
+  }
+
+  .pipNetworkPanel {
+    min-height: 58px !important;
+  }
+
+  .pipSignalWave {
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .drbWalletTerminal {
+    grid-template-rows: auto auto !important;
+    gap: 12px !important;
+  }
+
+  .drbWalletGrid,
+  .drbWalletLeft,
+  .drbWalletRight {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    align-items: start !important;
+  }
+
+  .drbWalletLeft {
+    grid-template-rows: auto auto auto !important;
+  }
+
+  .drbWalletRight {
+    grid-template-rows: auto auto !important;
+  }
+
+  .drbBattlePanel {
+    grid-template-rows: auto auto auto auto !important;
+    row-gap: 10px !important;
+    padding: 18px 22px !important;
+    overflow: visible !important;
+    clip-path: none !important;
+  }
+
+  .drbAssetRow {
+    min-height: 132px !important;
+    gap: 18px !important;
+  }
+
+  .drbDuelDivider {
+    min-height: 118px !important;
+  }
+
+  .drbAssetCard {
+    min-height: 112px !important;
+  }
+
+  .drbAssetIconFrame {
+    width: clamp(84px, 9vw, 118px) !important;
+    height: clamp(84px, 9vw, 118px) !important;
+  }
+
+  .drbAssetName {
+    font-size: clamp(18px, 1.8vw, 28px) !important;
+  }
+
+  .drbAssetAmount {
+    font-size: clamp(32px, 3.3vw, 48px) !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+  }
+
+  .drbAssetUsd {
+    font-size: clamp(11px, 1vw, 14px) !important;
+    line-height: 1.25 !important;
+    white-space: nowrap !important;
+  }
+
+  .drbPercentRow {
+    margin: 6px 0 2px !important;
+    font-size: clamp(16px, 1.6vw, 24px) !important;
+  }
+
+  .drbSegmentBar {
+    height: clamp(26px, 3.4vh, 34px) !important;
+  }
+
+  .drbTotalValue {
+    margin-top: 10px !important;
+    min-height: 92px !important;
+    padding: 12px 18px !important;
+    align-content: center !important;
+    overflow: visible !important;
+  }
+
+  .drbTotalValue span {
+    font-size: clamp(11px, 1vw, 15px) !important;
+    line-height: 1.1 !important;
+  }
+
+  .drbTotalValue strong {
+    font-size: clamp(36px, 3.7vw, 58px) !important;
+    line-height: 1.04 !important;
+    overflow: visible !important;
+  }
+
+  .drbWalletLinks,
+  .drbInfoPanel,
+  .drbAboutPanel {
+    overflow: visible !important;
+  }
+
+  .contactsScreen {
+    height: auto !important;
+    min-height: 620px !important;
+    grid-template-rows: auto auto !important;
+    align-items: start !important;
+    overflow: visible !important;
+    padding: 24px !important;
+  }
+
+  .contactsLeftPanel {
+    align-self: start !important;
+    padding-top: 0 !important;
+  }
+
+  .contactsRightPanel {
+    align-self: start !important;
+  }
+
+  .contactsSignalFrame {
+    max-height: 430px !important;
+  }
+
+  .contactsMotto {
+    align-self: end !important;
+  }
+}
+
+@media (pointer: coarse) and (min-width: 901px) {
+  html,
+  body,
+  * {
+    cursor: auto !important;
+  }
+
+  .crosshairCursor {
+    display: none !important;
+  }
+
+  .statusBar.pipHintBar {
+    grid-template-columns: 1fr !important;
+    min-height: 30px !important;
+    padding: 7px 14px !important;
+  }
+
+  .pipHintGroup {
+    display: none !important;
+  }
+
+  .pipClock {
+    width: 100% !important;
+    justify-content: flex-end !important;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1180px) {
+  .pipMainScreen,
+  .drbWalletGrid,
+  .contactsScreen {
+    grid-template-columns: 1fr !important;
+  }
+
+  .pipMainRoutes,
+  .pipCharacterPanel,
+  .pipInfoPanel,
+  .drbWalletLeft,
+  .drbWalletRight,
+  .contactsLeftPanel,
+  .contactsRightPanel {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .contactsRightPanel {
+    order: -1 !important;
+  }
+}
