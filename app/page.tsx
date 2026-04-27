@@ -9,12 +9,132 @@ import { WalletStatsSection } from "./components/WalletStatsSection";
 import { ContactsSection } from "./components/ContactsSection";
 
 const items = [
-  { id: 1, title: "Skeleton Grok #0001", image: "/nft1.jpg", theme: "Black Seal" },
-  { id: 421, title: "Diamond Grok #0421", image: "/nft2.jpg", theme: "Cosmic Diamond" },
-  { id: 2, title: "Terminal Cap Grok #0002", image: "/nft3.jpg", theme: "Retro Room" },
-  { id: 3, title: "Forest Cartoon Grok #0003", image: "/nft4.jpg", theme: "Forest Toon" },
-  { id: 4, title: "Red Shadow Grok #0004", image: "/img_4.png", theme: "Red Flat" },
-  { id: 5, title: "Sketch Grok #0005", image: "/img_5.png", theme: "Paper Sketch" },
+  {
+    id: 0,
+    title: "Grokamoto #0",
+    image: "/gallery/0.png",
+    theme: "hypnosis-red"
+  },
+  {
+    id: 1,
+    title: "Grokamoto #1",
+    image: "/gallery/1.png",
+    theme: "mushrooms"
+  },
+  {
+    id: 2,
+    title: "Grokamoto #2",
+    image: "/gallery/2.png",
+    theme: "purple"
+  },
+  {
+    id: 3,
+    title: "Grokamoto #3",
+    image: "/gallery/3.png",
+    theme: "G"
+  },
+  {
+    id: 4,
+    title: "Grokamoto #4",
+    image: "/gallery/4.png",
+    theme: "fields"
+  },
+  {
+    id: 5,
+    title: "Grokamoto #5",
+    image: "/gallery/5.png",
+    theme: "purple"
+  },
+  {
+    id: 6,
+    title: "Grokamoto #6",
+    image: "/gallery/6.png",
+    theme: "lava"
+  },
+  {
+    id: 7,
+    title: "Grokamoto #7",
+    image: "/gallery/7.png",
+    theme: "green"
+  },
+  {
+    id: 8,
+    title: "Grokamoto #8",
+    image: "/gallery/8.png",
+    theme: "hypnosis-blue"
+  },
+  {
+    id: 9,
+    title: "Grokamoto #9",
+    image: "/gallery/9.png",
+    theme: "swamp"
+  },
+  {
+    id: 10,
+    title: "Grokamoto #10",
+    image: "/gallery/10.png",
+    theme: "de_wallstreet"
+  },
+  {
+    id: 11,
+    title: "Grokamoto #11",
+    image: "/gallery/11.png",
+    theme: "desert"
+  },
+  {
+    id: 12,
+    title: "Grokamoto #12",
+    image: "/gallery/12.png",
+    theme: "lava"
+  },
+  {
+    id: 13,
+    title: "Grokamoto #13",
+    image: "/gallery/13.png",
+    theme: "de_wallstreet"
+  },
+  {
+    id: 14,
+    title: "Grokamoto #14",
+    image: "/gallery/14.png",
+    theme: "R"
+  },
+  {
+    id: 15,
+    title: "Grokamoto #15",
+    image: "/gallery/15.png",
+    theme: "mint-green"
+  },
+  {
+    id: 16,
+    title: "Grokamoto #16",
+    image: "/gallery/16.png",
+    theme: "open-space"
+  },
+  {
+    id: 17,
+    title: "Grokamoto #17",
+    image: "/gallery/17.png",
+    theme: "hypnosis-black"
+  },
+  {
+    id: 18,
+    title: "Grokamoto #18",
+    image: "/gallery/18.png",
+    theme: "dark-grey"
+  },
+  {
+    id: 19,
+    title: "Grokamoto #19",
+    image: "/gallery/19.png",
+    theme: "noise"
+  },
+  {
+    id: 20,
+    title: "Grokamoto #20",
+    image: "/gallery/20.png",
+    theme: "portal"
+  }
 ];
 
 const links = {

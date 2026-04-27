@@ -1,174 +1,975 @@
 {
   "items": [
     {
-      "id": 421,
-      "title": "Diamond Grok #0421",
-      "rarity": "Legendary",
-      "description": "A rare crystalline entity from the outer algorithm. Forged in diamonds, driven by stardust.",
+      "id": 0,
+      "title": "Grokamoto #0",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
       "traits": [
         {
-          "type": "Background",
-          "value": "Cosmic"
+          "type": "bg",
+          "value": "hypnosis-red"
         },
         {
-          "type": "Body",
-          "value": "Diamond"
+          "type": "back accessories",
+          "value": "chromium_wings"
         },
         {
-          "type": "Head",
-          "value": "Orbit Smile"
+          "type": "body",
+          "value": "white-silhouette"
         },
         {
-          "type": "Eyes",
-          "value": "Crystal"
+          "type": "clothing",
+          "value": "gray-shirt"
         },
         {
-          "type": "Aura",
-          "value": "Stardust"
+          "type": "mouth",
+          "value": "wow"
         },
         {
-          "type": "Extra",
-          "value": "Floating Shards"
+          "type": "eyes",
+          "value": "x-x"
+        },
+        {
+          "type": "grokcore",
+          "value": "golden_grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "2025-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "vietnam-helmet"
+        },
+        {
+          "type": "effects",
+          "value": "hacked"
         }
       ],
-      "archiveId": "#0421",
-      "source": "LOCAL JSON",
-      "status": "PLACEHOLDER"
+      "archiveId": "#0000",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
     },
     {
       "id": 1,
-      "title": "Skeleton Grok #0001",
-      "rarity": "Archive",
-      "description": "Monochrome archive unit locked inside an old terminal scan.",
+      "title": "Grokamoto #1",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
       "traits": [
         {
-          "type": "Background",
-          "value": "Black Seal"
+          "type": "bg",
+          "value": "mushrooms"
         },
         {
-          "type": "Body",
-          "value": "Skeleton"
+          "type": "body",
+          "value": "pearl-jelly"
         },
         {
-          "type": "Grokcore",
-          "value": "White Orbit"
+          "type": "clothing",
+          "value": "grokamoto-t-shirt-white"
         },
         {
-          "type": "Mood",
-          "value": "Dead Signal"
+          "type": "mouth",
+          "value": "sad"
+        },
+        {
+          "type": "eyes",
+          "value": "based"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "hats",
+          "value": "duraga"
         }
       ],
       "archiveId": "#0001",
-      "source": "LOCAL JSON",
-      "status": "PLACEHOLDER"
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
     },
     {
       "id": 2,
-      "title": "Terminal Cap Grok #0002",
-      "rarity": "Rare",
-      "description": "A late-night room signal with glowing eyes and bootleg console energy.",
+      "title": "Grokamoto #2",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
       "traits": [
         {
-          "type": "Background",
-          "value": "Retro Room"
+          "type": "bg",
+          "value": "purple"
         },
         {
-          "type": "Hat",
-          "value": "Supermeme Cap"
+          "type": "back accessories",
+          "value": "onfire"
         },
         {
-          "type": "Eyes",
-          "value": "LED Grid"
+          "type": "body",
+          "value": "bubblegum-jelly"
         },
         {
-          "type": "Clothing",
-          "value": "GROK Shirt"
+          "type": "clothing",
+          "value": "based-asf-burgundy-t-shirt"
+        },
+        {
+          "type": "mouth",
+          "value": "ugly_mfer"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "lava_grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "ghm-purple-bandana"
+        },
+        {
+          "type": "hats",
+          "value": "traffic-cone"
+        },
+        {
+          "type": "effects",
+          "value": "drb_undermoney"
         }
       ],
       "archiveId": "#0002",
-      "source": "LOCAL JSON",
-      "status": "PLACEHOLDER"
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
     },
     {
       "id": 3,
-      "title": "Forest Cartoon Grok #0003",
-      "rarity": "Uncommon",
-      "description": "Old cartoon forest file rendered through archive noise.",
+      "title": "Grokamoto #3",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
       "traits": [
         {
-          "type": "Background",
-          "value": "Monochrome Forest"
+          "type": "bg",
+          "value": "G"
         },
         {
-          "type": "Body",
-          "value": "Ink Black"
+          "type": "back accessories",
+          "value": "double-katanas"
         },
         {
-          "type": "Clothing",
-          "value": "Overalls"
+          "type": "body",
+          "value": "pink-plastic"
         },
         {
-          "type": "Style",
-          "value": "1930s Toon"
+          "type": "clothing",
+          "value": "1000is1000-black-t-shirt"
+        },
+        {
+          "type": "mouth",
+          "value": "wow"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "hats",
+          "value": "error-button-cap"
         }
       ],
       "archiveId": "#0003",
-      "source": "LOCAL JSON",
-      "status": "PLACEHOLDER"
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
     },
     {
       "id": 4,
-      "title": "Red Shadow Grok #0004",
-      "rarity": "Common",
-      "description": "Minimal red-background silhouette from the early archive batch.",
+      "title": "Grokamoto #4",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
       "traits": [
         {
-          "type": "Background",
-          "value": "Red Flat"
+          "type": "bg",
+          "value": "fields"
         },
         {
-          "type": "Body",
-          "value": "Shadow"
+          "type": "back accessories",
+          "value": "double-katanas"
         },
         {
-          "type": "Eyes",
-          "value": "White Blocks"
+          "type": "body",
+          "value": "blue-plastic"
         },
         {
-          "type": "Grokcore",
-          "value": "Clean Orbit"
+          "type": "clothing",
+          "value": "grokamoto-sweater-blue"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "based"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "hats",
+          "value": "sheriff-hat"
         }
       ],
       "archiveId": "#0004",
-      "source": "LOCAL JSON",
-      "status": "PLACEHOLDER"
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
     },
     {
       "id": 5,
-      "title": "Sketch Grok #0005",
-      "rarity": "Experimental",
-      "description": "Hand-drawn trait stress test used as a temporary gallery placeholder.",
+      "title": "Grokamoto #5",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
       "traits": [
         {
-          "type": "Background",
-          "value": "Paper"
+          "type": "bg",
+          "value": "purple"
         },
         {
-          "type": "Body",
-          "value": "Crayon"
+          "type": "back accessories",
+          "value": "jetpack"
         },
         {
-          "type": "Mouth",
-          "value": "Pink Smile"
+          "type": "body",
+          "value": "original body"
         },
         {
-          "type": "Extra",
-          "value": "Heart Patch"
+          "type": "clothing",
+          "value": "ghm-sweater-orange"
+        },
+        {
+          "type": "mouth",
+          "value": "wow"
+        },
+        {
+          "type": "eyes",
+          "value": "based"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "black-simple-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "purple-bandana"
         }
       ],
       "archiveId": "#0005",
-      "source": "LOCAL JSON",
-      "status": "PLACEHOLDER"
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 6,
+      "title": "Grokamoto #6",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "lava"
+        },
+        {
+          "type": "body",
+          "value": "bubblegum-jelly"
+        },
+        {
+          "type": "clothing",
+          "value": "tbf-red-puffer-jacket"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "ghm-yellow-bandana"
+        },
+        {
+          "type": "hats",
+          "value": "little-raper-cap"
+        }
+      ],
+      "archiveId": "#0006",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 7,
+      "title": "Grokamoto #7",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "green"
+        },
+        {
+          "type": "back accessories",
+          "value": "drb-bat"
+        },
+        {
+          "type": "body",
+          "value": "original body"
+        },
+        {
+          "type": "clothing",
+          "value": "tbf-black-puffer-jacket"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "lazy"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "achievements",
+          "value": "buy-the-dip"
+        }
+      ],
+      "archiveId": "#0007",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 8,
+      "title": "Grokamoto #8",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "hypnosis-blue"
+        },
+        {
+          "type": "back accessories",
+          "value": "jetpack"
+        },
+        {
+          "type": "body",
+          "value": "black-wireframe"
+        },
+        {
+          "type": "clothing",
+          "value": "grokidas-sport-suit-orange"
+        },
+        {
+          "type": "mouth",
+          "value": "wow"
+        },
+        {
+          "type": "eyes",
+          "value": "devil"
+        },
+        {
+          "type": "grokcore",
+          "value": "vhs_grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "yellow-strange-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "green-headphones"
+        }
+      ],
+      "archiveId": "#0008",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 9,
+      "title": "Grokamoto #9",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "swamp"
+        },
+        {
+          "type": "body",
+          "value": "blue-plastic"
+        },
+        {
+          "type": "clothing",
+          "value": "tbf-purple-puffer-jacket"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "hats",
+          "value": "afro-hair"
+        },
+        {
+          "type": "effects",
+          "value": "gtahud"
+        },
+        {
+          "type": "achievements",
+          "value": "grok-has-money"
+        }
+      ],
+      "archiveId": "#0009",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 10,
+      "title": "Grokamoto #10",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "de_wallstreet"
+        },
+        {
+          "type": "body",
+          "value": "stone"
+        },
+        {
+          "type": "clothing",
+          "value": "grokamoto-sweater-blue"
+        },
+        {
+          "type": "mouth",
+          "value": "zigzag"
+        },
+        {
+          "type": "eyes",
+          "value": "devil"
+        },
+        {
+          "type": "grokcore",
+          "value": "blue grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "2025-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "duck-hat"
+        },
+        {
+          "type": "achievements",
+          "value": "not-rekt"
+        }
+      ],
+      "archiveId": "#0010",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 11,
+      "title": "Grokamoto #11",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "desert"
+        },
+        {
+          "type": "back accessories",
+          "value": "double-katanas"
+        },
+        {
+          "type": "body",
+          "value": "blue-plastic"
+        },
+        {
+          "type": "mouth",
+          "value": "zigzag"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "yellow-strange-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "kebab-queen-cap"
+        },
+        {
+          "type": "effects",
+          "value": "gtahud"
+        }
+      ],
+      "archiveId": "#0011",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 12,
+      "title": "Grokamoto #12",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "lava"
+        },
+        {
+          "type": "back accessories",
+          "value": "electro"
+        },
+        {
+          "type": "body",
+          "value": "pearl-jelly"
+        },
+        {
+          "type": "clothing",
+          "value": "iwtb-hoodie"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "vhs_grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "yellow-strange-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "safari-panama"
+        },
+        {
+          "type": "effects",
+          "value": "demotivator"
+        }
+      ],
+      "archiveId": "#0012",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 13,
+      "title": "Grokamoto #13",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "de_wallstreet"
+        },
+        {
+          "type": "body",
+          "value": "full-white"
+        },
+        {
+          "type": "clothing",
+          "value": "tbf-red-puffer-jacket"
+        },
+        {
+          "type": "mouth",
+          "value": "zigzag"
+        },
+        {
+          "type": "eyes",
+          "value": "demon"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "hearts-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "g-cap-red"
+        },
+        {
+          "type": "effects",
+          "value": "demotivator"
+        }
+      ],
+      "archiveId": "#0013",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 14,
+      "title": "Grokamoto #14",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "R"
+        },
+        {
+          "type": "back accessories",
+          "value": "jetpack"
+        },
+        {
+          "type": "body",
+          "value": "original body"
+        },
+        {
+          "type": "clothing",
+          "value": "1000is1000-black-t-shirt"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "hats",
+          "value": "REKT-cap"
+        },
+        {
+          "type": "effects",
+          "value": "hacked"
+        },
+        {
+          "type": "achievements",
+          "value": "first-debt-erased"
+        }
+      ],
+      "archiveId": "#0014",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 15,
+      "title": "Grokamoto #15",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "mint-green"
+        },
+        {
+          "type": "back accessories",
+          "value": "double-katanas"
+        },
+        {
+          "type": "body",
+          "value": "original body"
+        },
+        {
+          "type": "clothing",
+          "value": "tbf-black-puffer-jacket"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "original eyes"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "ghm-black-bandana"
+        },
+        {
+          "type": "hats",
+          "value": "elizabeth-hat"
+        }
+      ],
+      "archiveId": "#0015",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 16,
+      "title": "Grokamoto #16",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "open-space"
+        },
+        {
+          "type": "body",
+          "value": "ironman"
+        },
+        {
+          "type": "mouth",
+          "value": "sad"
+        },
+        {
+          "type": "eyes",
+          "value": "demon"
+        },
+        {
+          "type": "grokcore",
+          "value": "rainbow_grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "no face accessories"
+        },
+        {
+          "type": "effects",
+          "value": "windumbs"
+        },
+        {
+          "type": "achievements",
+          "value": "exit-liquidity"
+        }
+      ],
+      "archiveId": "#0016",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 17,
+      "title": "Grokamoto #17",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "hypnosis-black"
+        },
+        {
+          "type": "back accessories",
+          "value": "drb-bat"
+        },
+        {
+          "type": "body",
+          "value": "white-man-skin"
+        },
+        {
+          "type": "mouth",
+          "value": "wow"
+        },
+        {
+          "type": "eyes",
+          "value": "based"
+        },
+        {
+          "type": "grokcore",
+          "value": "purple grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "no face accessories"
+        },
+        {
+          "type": "effects",
+          "value": "demotivator"
+        },
+        {
+          "type": "achievements",
+          "value": "not-rekt"
+        }
+      ],
+      "archiveId": "#0017",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 18,
+      "title": "Grokamoto #18",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "dark-grey"
+        },
+        {
+          "type": "back accessories",
+          "value": "angel-wings"
+        },
+        {
+          "type": "body",
+          "value": "black-silhouette"
+        },
+        {
+          "type": "clothing",
+          "value": "blank-green-t-shirt"
+        },
+        {
+          "type": "mouth",
+          "value": "zigzag"
+        },
+        {
+          "type": "eyes",
+          "value": "demon"
+        },
+        {
+          "type": "grokcore",
+          "value": "rainbow_grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "red-leon-glasses"
+        },
+        {
+          "type": "hats",
+          "value": "duraga"
+        },
+        {
+          "type": "effects",
+          "value": "demotivator"
+        },
+        {
+          "type": "achievements",
+          "value": "early-holder"
+        }
+      ],
+      "archiveId": "#0018",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 19,
+      "title": "Grokamoto #19",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "noise"
+        },
+        {
+          "type": "back accessories",
+          "value": "drb-bat"
+        },
+        {
+          "type": "body",
+          "value": "cosmic-energy"
+        },
+        {
+          "type": "clothing",
+          "value": "kimono-red"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "lazy"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        },
+        {
+          "type": "face accessories",
+          "value": "ghm-yellow-bandana"
+        },
+        {
+          "type": "hats",
+          "value": "vietnam-helmet"
+        }
+      ],
+      "archiveId": "#0019",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
+    },
+    {
+      "id": 20,
+      "title": "Grokamoto #20",
+      "rarity": "Archive Preview",
+      "description": "Unofficial Grokamotos is a collection of 2,026 fan-made PFP NFTs built around the $DRB universe, pushing its visual identity through low-poly early-2000s game aesthetics, ironic terminal-core energy, and community-made underground mythology. Satoshi #Grokamotos Has Money",
+      "traits": [
+        {
+          "type": "bg",
+          "value": "portal"
+        },
+        {
+          "type": "back accessories",
+          "value": "double-katanas"
+        },
+        {
+          "type": "body",
+          "value": "black-silhouette"
+        },
+        {
+          "type": "mouth",
+          "value": "original smile"
+        },
+        {
+          "type": "eyes",
+          "value": "based"
+        },
+        {
+          "type": "grokcore",
+          "value": "white grokcore"
+        }
+      ],
+      "archiveId": "#0020",
+      "source": "MANUAL JSON",
+      "status": "PREVIEW"
     }
   ]
 }
