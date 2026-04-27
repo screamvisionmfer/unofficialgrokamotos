@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "id": 421,
+      "title": "Diamond Grok #0421",
+      "rarity": "Legendary",
+      "description": "A rare crystalline entity from the outer algorithm. Forged in diamonds, driven by stardust.",
+      "traits": [
+        {
+          "type": "Background",
+          "value": "Cosmic"
+        },
+        {
+          "type": "Body",
+          "value": "Diamond"
+        },
+        {
+          "type": "Head",
+          "value": "Orbit Smile"
+        },
+        {
+          "type": "Eyes",
+          "value": "Crystal"
+        },
+        {
+          "type": "Aura",
+          "value": "Stardust"
+        },
+        {
+          "type": "Extra",
+          "value": "Floating Shards"
+        }
+      ],
+      "archiveId": "#0421",
+      "source": "LOCAL JSON",
+      "status": "PLACEHOLDER"
+    },
+    {
+      "id": 1,
+      "title": "Skeleton Grok #0001",
+      "rarity": "Archive",
+      "description": "Monochrome archive unit locked inside an old terminal scan.",
+      "traits": [
+        {
+          "type": "Background",
+          "value": "Black Seal"
+        },
+        {
+          "type": "Body",
+          "value": "Skeleton"
+        },
+        {
+          "type": "Grokcore",
+          "value": "White Orbit"
+        },
+        {
+          "type": "Mood",
+          "value": "Dead Signal"
+        }
+      ],
+      "archiveId": "#0001",
+      "source": "LOCAL JSON",
+      "status": "PLACEHOLDER"
+    },
+    {
+      "id": 2,
+      "title": "Terminal Cap Grok #0002",
+      "rarity": "Rare",
+      "description": "A late-night room signal with glowing eyes and bootleg console energy.",
+      "traits": [
+        {
+          "type": "Background",
+          "value": "Retro Room"
+        },
+        {
+          "type": "Hat",
+          "value": "Supermeme Cap"
+        },
+        {
+          "type": "Eyes",
+          "value": "LED Grid"
+        },
+        {
+          "type": "Clothing",
+          "value": "GROK Shirt"
+        }
+      ],
+      "archiveId": "#0002",
+      "source": "LOCAL JSON",
+      "status": "PLACEHOLDER"
+    },
+    {
+      "id": 3,
+      "title": "Forest Cartoon Grok #0003",
+      "rarity": "Uncommon",
+      "description": "Old cartoon forest file rendered through archive noise.",
+      "traits": [
+        {
+          "type": "Background",
+          "value": "Monochrome Forest"
+        },
+        {
+          "type": "Body",
+          "value": "Ink Black"
+        },
+        {
+          "type": "Clothing",
+          "value": "Overalls"
+        },
+        {
+          "type": "Style",
+          "value": "1930s Toon"
+        }
+      ],
+      "archiveId": "#0003",
+      "source": "LOCAL JSON",
+      "status": "PLACEHOLDER"
+    },
+    {
+      "id": 4,
+      "title": "Red Shadow Grok #0004",
+      "rarity": "Common",
+      "description": "Minimal red-background silhouette from the early archive batch.",
+      "traits": [
+        {
+          "type": "Background",
+          "value": "Red Flat"
+        },
+        {
+          "type": "Body",
+          "value": "Shadow"
+        },
+        {
+          "type": "Eyes",
+          "value": "White Blocks"
+        },
+        {
+          "type": "Grokcore",
+          "value": "Clean Orbit"
+        }
+      ],
+      "archiveId": "#0004",
+      "source": "LOCAL JSON",
+      "status": "PLACEHOLDER"
+    },
+    {
+      "id": 5,
+      "title": "Sketch Grok #0005",
+      "rarity": "Experimental",
+      "description": "Hand-drawn trait stress test used as a temporary gallery placeholder.",
+      "traits": [
+        {
+          "type": "Background",
+          "value": "Paper"
+        },
+        {
+          "type": "Body",
+          "value": "Crayon"
+        },
+        {
+          "type": "Mouth",
+          "value": "Pink Smile"
+        },
+        {
+          "type": "Extra",
+          "value": "Heart Patch"
+        }
+      ],
+      "archiveId": "#0005",
+      "source": "LOCAL JSON",
+      "status": "PLACEHOLDER"
+    }
+  ]
+}

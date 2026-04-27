@@ -1,0 +1,6 @@
+Security check notes:
+- No BaseScan API key is present in the archive.
+- Wallet data is fetched through app/api/wallet/route.ts using public Base RPC, DexScreener, and CoinGecko.
+- Next.js was changed from 14.2.5 to 14.2.35. Old package-lock.json was removed so npm/Vercel installs the patched version instead of the old vulnerable one.
+- model-viewer CDN URL was pinned to @google/model-viewer@4.2.0 instead of the floating latest URL.
+- Run npm install locally to regenerate package-lock.json if you want to commit through GitHub.
