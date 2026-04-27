@@ -138,7 +138,7 @@ const items = [
 ];
 
 const links = {
-  mint: "https://un0fficial-grokamotos.nfts2.me/",
+  mint: "https://grokamotos.nfts2.me/",
   token: "https://dexscreener.com/base/0x5116773e18a9c7bb03ebb961b38678e45e238923",
   grokipedia: "https://grokipedia.com/page/debtreliefbot",
   wallet: "https://drbtaskforce.com/wallet/",

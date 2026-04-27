@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 type ActiveTab = "main" | "gallery" | "wallet" | "contacts" | "game";
 
 type HeroSectionProps = {
@@ -27,6 +29,12 @@ export function HeroSection({
   setShowAchievements,
   setActiveTab,
 }: HeroSectionProps) {
+  const [modelReady, setModelReady] = useState(false);
+
+  useEffect(() => {
+    setModelReady(true);
+  }, []);
+
   return (
     <section className="pipMainScreen" id="main">
       <aside className="pipMainRoutes uiFont" aria-label="Main routes">
@@ -89,22 +97,24 @@ export function HeroSection({
         </div>
 
         <div className="pipModelViewport">
-          <model-viewer
-            className="pipModelViewer"
-            src="/grokamotos.glb"
-            camera-controls="false"
-            auto-rotate
-            rotation-per-second="24deg"
-            disable-zoom
-            disable-pan
-            interaction-prompt="none"
-            shadow-intensity="0"
-            exposure="1.05"
-            environment-image="neutral"
-            camera-orbit="0deg 76deg 2.82m"
-            camera-target="0m 0.02m 0m"
-            field-of-view="24deg"
-          />
+          {modelReady && (
+            <model-viewer
+              className="pipModelViewer"
+              src="/grokamotos.glb"
+              camera-controls="false"
+              auto-rotate
+              rotation-per-second="24deg"
+              disable-zoom
+              disable-pan
+              interaction-prompt="none"
+              shadow-intensity="0"
+              exposure="1.05"
+              environment-image="neutral"
+              camera-orbit="0deg 76deg 2.82m"
+              camera-target="0m 0.02m 0m"
+              field-of-view="24deg"
+            />
+          )}
 
           <div className="parallaxLayer parallaxGridLayer" style={{ transform: `translate3d(${parallax.x * -0.25}px, ${parallax.y * -0.2}px, 0)` }} />
           <div className="parallaxLayer parallaxGlowLayer" style={{ transform: `translate3d(${parallax.x * 0.35}px, ${parallax.y * 0.3}px, 0)` }} />
