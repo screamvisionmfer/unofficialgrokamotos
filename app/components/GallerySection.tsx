@@ -179,6 +179,8 @@ export function GallerySection({
         <a
           className="galleryMintButton"
           href={mintUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           onMouseEnter={playHoverSound}
           onFocus={playHoverSound}
           onClick={playClickSound}

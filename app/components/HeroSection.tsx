@@ -32,7 +32,7 @@ export function HeroSection({
       <aside className="pipMainRoutes uiFont" aria-label="Main routes">
         <div className="pipSectionLabel">MAIN ROUTES</div>
 
-        <a href={links.mint} className="pipRouteItem active" onMouseEnter={playHoverSound} onFocus={playHoverSound} onClick={(event) => { event.preventDefault(); playClickSound(); setActiveTab("gallery"); unlockAchievement("archive"); showSaveIcon(); }}>
+        <a href={links.mint} target="_blank" rel="noopener noreferrer" className="pipRouteItem active" onMouseEnter={playHoverSound} onFocus={playHoverSound} onClick={() => { playClickSound(); }}>
           <span className="pipRouteNumber">01</span>
           <img className="pipRouteIcon" src="/icons/mint.png" alt="" aria-hidden="true" />
           <strong>MINT</strong>
