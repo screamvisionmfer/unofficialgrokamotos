@@ -7771,3 +7771,36 @@ body {
     top: 42%;
   }
 }
+
+/* FINAL PATCH V15: gallery traits cleanup */
+.galleryDescription {
+  display: none !important;
+}
+
+.galleryTraitRows {
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: 360px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.galleryTraitRows::-webkit-scrollbar {
+  width: 6px;
+}
+
+.galleryTraitRows::-webkit-scrollbar-thumb {
+  background: rgba(168, 255, 114, .45);
+}
+
+.galleryTraitRows::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .25);
+}
+
+@media (max-width: 900px) {
+  .galleryTraitRows {
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+  }
+}

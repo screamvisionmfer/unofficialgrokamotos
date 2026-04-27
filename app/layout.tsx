@@ -5,8 +5,39 @@ import type { ReactNode } from "react";
 export const viewport = { width: "device-width", initialScale: 1, maximumScale: 1, viewportFit: "cover" };
 
 export const metadata = {
-  title: "Unofficial Grokamotos",
-  description: "Game-style NFT landing for $DRB",
+  metadataBase: new URL("https://unofficialgrokamotos.com"),
+  title: {
+    default: "Unofficial Grokamotos — fan-made $DRB PFP archive",
+    template: "%s | Unofficial Grokamotos",
+  },
+  description:
+    "Unofficial Grokamotos is a fan-made $DRB PFP NFT archive built around low-poly early-2000s game aesthetics, terminal-core energy, and community-made underground mythology.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://unofficialgrokamotos.com",
+    siteName: "Unofficial Grokamotos",
+    title: "Unofficial Grokamotos — fan-made $DRB PFP archive",
+    description:
+      "A fan-made $DRB PFP NFT archive with low-poly early-2000s game aesthetics and terminal-core energy.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Unofficial Grokamotos — fan-made $DRB PFP archive",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Unofficial Grokamotos — fan-made $DRB PFP archive",
+    description:
+      "A fan-made $DRB PFP NFT archive with low-poly early-2000s game aesthetics and terminal-core energy.",
+    images: ["/og-image.png"],
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },

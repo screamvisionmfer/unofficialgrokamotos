@@ -169,8 +169,6 @@ export function GallerySection({
           ))}
         </div>
 
-        <p className="galleryDescription">{selectedTraits?.description ?? "Trait JSON placeholder is loading from /data/gallery-traits.json."}</p>
-
         <div className="galleryMetaBottom">
           <div><span>ARCHIVE ID</span><strong>{selectedTraits?.archiveId ?? "#0000"}</strong></div>
           <div><span>STATUS</span><strong>{selectedTraits?.status ?? "PLACEHOLDER"}</strong></div>
