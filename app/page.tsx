@@ -148,33 +148,6 @@ const links = {
 
 const initialSlots = [0, 1, 2, 3, 4, 5];
 
-const bootBackgrounds = [
-  "/boot-gallery/boot-01.png",
-  "/boot-gallery/boot-02.png",
-  "/boot-gallery/boot-03.png",
-  "/boot-gallery/boot-04.png",
-  "/boot-gallery/boot-05.png",
-  "/boot-gallery/boot-06.png",
-  "/boot-gallery/boot-07.png",
-  "/boot-gallery/boot-08.png",
-  "/boot-gallery/boot-09.png",
-  "/boot-gallery/boot-10.png",
-  "/boot-gallery/boot-11.png",
-  "/boot-gallery/boot-12.png",
-  "/boot-gallery/boot-13.png",
-  "/boot-gallery/boot-14.png",
-  "/boot-gallery/boot-15.png",
-  "/boot-gallery/boot-16.png",
-  "/boot-gallery/boot-17.png",
-  "/boot-gallery/boot-18.png",
-  "/boot-gallery/boot-19.png",
-  "/boot-gallery/boot-20.png",
-  "/boot-gallery/boot-21.png",
-  "/boot-gallery/boot-22.png",
-  "/boot-gallery/boot-23.png",
-  "/boot-gallery/boot-24.png",
-];
-
 const achievementCatalog = [
   { id: "boot", title: "Booted The Program", desc: "Entered the Grokamotos interface." },
   { id: "archive", title: "Archive Goblin", desc: "Opened the archive route." },
@@ -223,9 +196,7 @@ export default function Page() {
   const [bootMenuIndex, setBootMenuIndex] = useState(0);
   const [bootModal, setBootModal] = useState<null | "stats" | "contacts">(null);
   const [hackerMode, setHackerMode] = useState(false);
-  const [bootBgIndex, setBootBgIndex] = useState(() => Math.floor(Math.random() * bootBackgrounds.length));
   const konamiRef = useRef<string[]>([]);
-  const bootShuffleRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const hoverAudioRef = useRef<HTMLAudioElement | null>(null);
   const clickAudioRef = useRef<HTMLAudioElement | null>(null);
   const startVoiceAudioRef = useRef<HTMLAudioElement | null>(null);
@@ -373,11 +344,6 @@ export default function Page() {
   }, []);
 
 
-  useEffect(() => {
-    return () => {
-      if (bootShuffleRef.current) clearInterval(bootShuffleRef.current);
-    };
-  }, []);
 
   useEffect(() => {
     if (!bootDone) return;
@@ -541,7 +507,6 @@ export default function Page() {
     playClickSound();
     playStartVoice();
     setIsStarting(true);
-    stopBootShuffle();
     setBootModal(null);
     window.setTimeout(() => {
       setBootDone(true);
@@ -559,31 +524,6 @@ export default function Page() {
         }
       }, 120);
     }, 1050);
-  };
-
-  const pickNextBootBackground = () => {
-    setBootBgIndex((prev) => {
-      if (bootBackgrounds.length <= 1) return prev;
-      let next = prev;
-      while (next === prev) {
-        next = Math.floor(Math.random() * bootBackgrounds.length);
-      }
-      return next;
-    });
-  };
-
-  const startBootShuffle = () => {
-    if (bootShuffleRef.current) clearInterval(bootShuffleRef.current);
-    bootShuffleRef.current = setInterval(() => {
-      pickNextBootBackground();
-    }, 120);
-  };
-
-  const stopBootShuffle = () => {
-    if (bootShuffleRef.current) {
-      clearInterval(bootShuffleRef.current);
-      bootShuffleRef.current = null;
-    }
   };
 
   const bootMenuItems = useMemo(
@@ -814,13 +754,10 @@ export default function Page() {
         <BootMenu
           hackerMode={hackerMode}
           isStarting={isStarting}
-          bootBackground={bootBackgrounds[bootBgIndex]}
           bootMenuItems={bootMenuItems}
           bootMenuIndex={bootMenuIndex}
           bootModal={bootModal}
           linksWallet={links.wallet}
-          startBootShuffle={startBootShuffle}
-          stopBootShuffle={stopBootShuffle}
           setBootMenuIndex={setBootMenuIndex}
           setBootModal={setBootModal}
           playHoverSound={playHoverSound}

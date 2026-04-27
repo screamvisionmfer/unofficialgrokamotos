@@ -8,13 +8,10 @@ type BootMenuItem = {
 type BootMenuProps = {
   hackerMode: boolean;
   isStarting: boolean;
-  bootBackground: string;
   bootMenuItems: BootMenuItem[];
   bootMenuIndex: number;
   bootModal: null | "stats" | "contacts";
   linksWallet: string;
-  startBootShuffle: () => void;
-  stopBootShuffle: () => void;
   setBootMenuIndex: (index: number) => void;
   setBootModal: (modal: null | "stats" | "contacts") => void;
   playHoverSound: () => void;
@@ -25,13 +22,10 @@ type BootMenuProps = {
 export function BootMenu({
   hackerMode,
   isStarting,
-  bootBackground,
   bootMenuItems,
   bootMenuIndex,
   bootModal,
   linksWallet,
-  startBootShuffle,
-  stopBootShuffle,
   setBootMenuIndex,
   setBootModal,
   playHoverSound,
@@ -40,12 +34,16 @@ export function BootMenu({
 }: BootMenuProps) {
   return (
     <div className={`bootMenuScreen ${hackerMode ? "hackerBoot" : ""} ${isStarting ? "bootStarting" : ""}`}>
-      <div
-        className="bootMenuArt"
-        onMouseEnter={startBootShuffle}
-        onMouseLeave={stopBootShuffle}
-      >
-        <div className="bootMenuBackdropInner" style={{ backgroundImage: `url(${bootBackground})` }} />
+      <div className="bootMenuArt">
+        <div className="bootMenuBackdropInner">
+          <img
+            className="bootMenuBackdropGif"
+            src="/effects/boot-menu-bg.gif"
+            alt=""
+            aria-hidden="true"
+            draggable={false}
+          />
+        </div>
         <div className="bootMenuVhs" />
         <div className="bootMenuTracking" />
         <div className="bootMenuVignette" />
